@@ -1,5 +1,6 @@
-
 # ParkingApp
+<img src="https://github.com/simonjenny/ParkingApp/raw/master/screenshot.png" width="320">
+
 Die Parkleitsystem API und App für IOS und Android ist Teil meiner 2017 Aktion OAPM [(One App per Month)](http://github.com)
 
 ## Installationsanleitungen
@@ -9,6 +10,8 @@ API in ein beliebiges Verzeichns und installiere alle notwendigen Abhängigkeite
 ```
 composer install
 ```
+Die API muss aber nicht zwingend Installiert werden, da Ihr gerne die API auf meinem Webhost benutzen könnt -> http://app.codecentric.ch/kunden/parking/api/
+
 ### APP
 Die App ist ein IONIC Framework Projekt und kann via NPM installiert werden. Lade alle Daten aus dem Verzeichnis APP
 und installiere alle notwendigen Abhängigkeiten mit
