@@ -1,7 +1,7 @@
 # ParkingApp
 <img src="https://github.com/simonjenny/ParkingApp/raw/master/screenshot.png" width="320">
 
-Die Parkleitsystem API und App für IOS und Android ist Teil meiner 2017 Aktion OAPM [(One App per Month)](http://github.com)
+Die Parkleitsystem API und App für IOS und Android ist Teil meiner 2017 Aktion OAPM [(One App per Month)](https://github.com/simonjenny/oapm)
 
 ## Installationsanleitungen
 ### API
