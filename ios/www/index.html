@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+    <title></title>
+
+    <link rel="manifest" href="manifest.json">
+
+    <!-- un-comment this code to enable service worker
+    <script>
+      if ('serviceWorker' in navigator) {
+        navigator.serviceWorker.register('service-worker.js')
+          .then(() => console.log('service worker installed'))
+          .catch(err => console.log('Error', err));
+      }
+    </script>-->
+
+    <link href="lib/ionic/css/ionic.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- IF using Sass (run gulp sass first), then uncomment below and remove the CSS includes above
+    <link href="css/ionic.app.css" rel="stylesheet">
+    -->
+
+    <!-- ionic/angularjs js -->
+
+    <script src="lib/ionic/js/ionic.bundle.js"></script>
+
+    <!-- cordova script (this will be a 404 during development) -->
+    <script src="lib/ngCordova/dist/ng-cordova.js"></script>
+    <script src="cordova.js"></script>
+
+    <!-- your app's js -->
+    <script src="js/app.js"></script>
+    <script src="js/controllers.js"></script>
+    <script src="js/services.js"></script>
+  </head>
+  <body ng-app="ParkingApp">
+    <ion-nav-bar class="bar-stable">
+    </ion-nav-bar>
+    <ion-nav-view>
+    </ion-nav-view>
+    <ion-tabs class="tabs-icon-top tabs-color-active-positive">
+      <ion-tab title="Basel" icon-off="bs" icon-on="bs" href="#/bs/Basel">
+      </ion-tab>
+      <ion-tab title="Z&#xFC;rich" icon-off="zh" icon-on="zh" href="#/zh/Z&#xFC;rich">
+      </ion-tab>
+      <ion-tab title="Bern" icon-off="be" icon-on="be" href="#/be/Bern">
+      </ion-tab>
+      <ion-tab title="St.Gallen" icon-off="sg" icon-on="sg" href="#/sg/St.Gallen">
+      </ion-tab>
+      <ion-tab title="Luzern" icon-off="lu" icon-on="lu" href="#/lu/Luzern">
+      </ion-tab>
+      <ion-tab title="Zug" icon-off="zg" icon-on="zg" href="#/zg/Zug">
+      </ion-tab>
+    </ion-tabs>
+  </body>
+</html>

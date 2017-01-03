@@ -1,0 +1,18 @@
+<ion-view view-title="{{city}}">
+    <ion-nav-buttons side="primary">
+         <button class="button button-clear"><img ng-src="img/{{c}}.png" class="wappen"></button>
+    </ion-nav-buttons>
+  <ion-content class="has-header has-tabs-top">
+    <ion-refresher
+    pulling-text="Neu laden..."
+    on-refresh="load()">
+    </ion-refresher>
+    <ion-list>
+      <ion-item class="item item-icon-right" ng-repeat="d in data | orderBy:'-frei'" ng-click="open(d.link)">
+          {{clean(d.name)}}
+          <span class="badge {{color(d.frei)}}">{{d.frei}}</span>
+          <i ng-if="d.link" class="icon ion-chevron-right icon-accessory"></i>
+     </ion-item>
+    </ion-list>
+  </ion-content>
+</ion-view>

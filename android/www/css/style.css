@@ -1,0 +1,58 @@
+/* Empty. Add your own CSS if you like */
+.wappen{
+    height:30px;
+}
+.tabs .tab-item .icon.be {
+  margin-top:5px !important;
+  margin-bottom: 3px !important;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  height: 50% !important;
+  background-image: url('../img/be.png');
+  background-size:contain;
+}
+.tabs .tab-item .icon.bs {
+  margin-top:5px !important;
+  margin-bottom: 3px !important;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  height: 50%;
+  background-image: url('../img/bs.png');
+  background-size:contain;
+}
+.tabs .tab-item .icon.lu {
+  margin-top:5px !important;
+  margin-bottom: 3px !important;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  height: 50%;
+  background-image: url('../img/lu.png');
+  background-size:contain;
+}
+.tabs .tab-item .icon.sg {
+  margin-top:5px !important;
+  margin-bottom: 3px !important;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  height: 50%;
+  background-image: url('../img/sg.png');
+  background-size:contain;
+}
+.tabs .tab-item .icon.zg {
+  margin-top:5px !important;
+  margin-bottom: 3px !important;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  height: 50%;
+  background-image: url('../img/zg.png');
+  background-size:contain;
+}
+.tabs .tab-item .icon.zh {
+  margin-top:5px !important;
+  margin-bottom: 3px !important;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  height: 50%;
+  background-image: url('../img/zh.png');
+  background-size:contain;
+}

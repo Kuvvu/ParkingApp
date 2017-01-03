@@ -1,0 +1,21 @@
+{
+    "name": "sj/parkingAppApi",
+    "authors": [
+        {
+            "name": "Simon Jenny",
+            "email": "simon.jenny@codecentric.ch"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^6.1",
+        "slim/slim": "^3.0",
+        "sunra/php-simple-html-dom-parser": "1.5.2",
+        "palanik/corsslim": "dev-slim3"
+    },
+    "autoload": {
+        "psr-4": {
+	        "Parking\\": "src/"
+	    },
+        "files": ["config.php"]
+    }
+}
